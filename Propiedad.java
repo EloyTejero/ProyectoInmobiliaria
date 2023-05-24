@@ -1,4 +1,4 @@
-package proyectoinmobiliaria;
+package ProyectoInmobiliaria;
 
 public abstract class Propiedad {
 

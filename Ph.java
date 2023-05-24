@@ -5,7 +5,7 @@
 package ProyectoInmobiliaria;
 
 
-public class Ph extense Propiedad{
+public class Ph extends Propiedad{
     int dpt;
     boolean vistaFront;
 
