@@ -4,10 +4,20 @@
  */
 package ProyectoInmobiliaria;
 
-/**
- *
- * @author ET36
- */
-public class Ph {
+
+public class Ph extense Propiedad{
+    int dpt;
+    boolean vistaFront;
+
+    public Ph(int dpt, boolean vistaFront){
+        super(dir, precio, mts2, ID, codPostal, tipo, cant_amb);
+        this.dpt = dpt;
+        this.vistaFront = vistaFront;
+    }
     
+    public void calcularPrecio(){
+        if (vistaFront==true){
+            precio=precio*1.2;
+        }
+    }    
 }
